@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #eeeeee;
+}
+
+body {
+    padding: 10vh 10vw;
+    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    padding: 10px 0px;
+    font-size: 28px;
+}
+
+h2 {
+    padding: 5px 0px;
+    font-size: 20px;
+}
+
+div {
+    padding-top: 20px;
+}
+
+footer {
+    font-size: 16px;
+    color: #45417a; 
+    padding-bottom: 20px;
+}
+
+#input {
+    width: 160px;
+}
+
+#input, #submit {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 102, 255, 0.5);
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+#submit {
+    cursor: pointer;
+}
+
+#submit:hover {
+    color: rgba(0, 102, 255);
+}
+
+#grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0px;
+}
+
+.grid-item {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 102, 255, 0.5);
+    padding: 15px;
+    font-size: 18px;
+    text-align: center;
+    width: 150px;
+}
+
+a {
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(0, 102, 255);
+}
+
+@media only screen and (max-width: 570px) {
+    #grid-container {
+        padding: 20px 0px;
+    }
+
+    .grid-item {
+        font-size: 12px;
+        width: 120px;
+    }
+    body {
+        padding: 5vh 8vw;
+    }
+    h1 {
+        padding: 8px 0px;
+        font-size: 24px;
+    }
+    
+    h2 {
+        padding: 3px 0px;
+        font-size: 18px;
+    }
+
+    div {
+        padding-top: 15px;
+    }
+    
+    #input, #submit {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .grid-item {
+        font-size: 12px;
+        width: 100px;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .grid-item {
+        font-size: 12px;
+        width: 100px;
+        padding: 10px;
+    }
+    body {
+        padding: 3vh 5vw;
+    }
+}

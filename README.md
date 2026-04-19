@@ -1,1 +1,1 @@
-Generate usernames and brand names by selecting a pattern of consonants and vowels. The application will randomly generate 40 names based on the pattern. [Try it out.](https://williamfroeyen.github.io/cv-name-generator/)
+Generate usernames and brand names by selecting a pattern of consonants and vowels. The application will randomly generate 40 names based on the pattern. [Try it out.](https://williamfroyen.github.io/cv-name-generator/)
